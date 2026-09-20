@@ -29,20 +29,12 @@ ABO-EvoHealth AI makes those claims testable using population genomics, longitud
 
 ## Architecture
 
-```mermaid
-graph TD
-    A[Genomics] --> D[Harmonized Research Layer]
-    B[EHR and Outcomes] --> D
-    C[Pathogens and Literature] --> D
-    D --> E[Population Genetics]
-    D --> F[Causal Analysis]
-    D --> G[Explainable AI]
-    D --> H[Evidence Graph]
-    E --> I[Validated Research Report]
-    F --> I
-    G --> I
-    H --> I
-```
+| Data sources | Harmonized research layer | Analytical engines | Research output |
+|---|---|---|---|
+| 🧬 **Genomics** — ABO, FUT2, FUT3 | Quality control and validation | Population genetics | |
+| 🏥 **Clinical data** — EHR, biomarkers, outcomes | OMOP/FHIR harmonization | Causal inference | 📊 **Validated research report** |
+| 🦠 **External evidence** — pathogens and literature | Provenance and governance | Explainable AI | |
+| | Ancestry-aware cohort construction | Biomedical evidence graph | |
 
 ## Included in this starter repository
 
