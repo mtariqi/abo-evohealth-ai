@@ -1,0 +1,7 @@
+seed: 42
+n_samples: 5000
+test_size: 0.25
+outcome: vte_1y
+output_dir: outputs/demo
+bootstrap_iterations: 200
+

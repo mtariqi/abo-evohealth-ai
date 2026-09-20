@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ABO-EvoHealth AI"
+type: software
+authors:
+  - family-names: "Islam"
+    given-names: "Md Tariqul"
+version: 0.1.0
+date-released: 2026-09-20
+license: MIT
+repository-code: "https://github.com/mtariqi/abo-evohealth-ai"
+
