@@ -30,15 +30,15 @@ ABO-EvoHealth AI makes those claims testable using population genomics, longitud
 ## Architecture
 
 ```mermaid
-flowchart TD
-    A["Genomics: ABO, FUT2, FUT3"] --> D["Harmonized research layer"]
-    B["EHR and outcomes"] --> D
-    C["Pathogens and literature"] --> D
-    D --> E["Population genetics"]
-    D --> F["Causal analyses"]
-    D --> G["Explainable prediction"]
-    D --> H["Evidence graph"]
-    E --> I["Validated research report"]
+graph TD
+    A[Genomics] --> D[Harmonized Research Layer]
+    B[EHR and Outcomes] --> D
+    C[Pathogens and Literature] --> D
+    D --> E[Population Genetics]
+    D --> F[Causal Analysis]
+    D --> G[Explainable AI]
+    D --> H[Evidence Graph]
+    E --> I[Validated Research Report]
     F --> I
     G --> I
     H --> I
